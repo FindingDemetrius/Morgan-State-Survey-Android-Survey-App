@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MSUSurveyApp</string>
+    <string name="nextButton">Next</string>
+    <string name="mainTextView">FEEDBACK IS IMPORTANT!!!
+        PLEASE TAKE THE TIME TO GIVE YOUR FEEDBACK ON YOUR EXPERIENCE HERE TODAY!</string>
+    <string name="mainButton">Leave Feedback!</string>
+    <string name="mainImageDesc">Morgan State University Logo</string>
+    <string name="satisfactionTextView">How was your experience here today?</string>
+    <string name="commentHint">Would you like to leave any extra notes
+        about your experience today? (optional)...</string>
+    <string name="submitButton">Submit</string>
+    <string name="thanksTextView">FEEDBACK IS IMPORTANT!!!
+        THANK YOU FOR HELPING MAKE MORGAN A BETTER COMMUNITY!</string>
+    <string name="thanksTextView2">Please dismiss this page to start over...</string>
+    <string name="thanksButton">Dismiss</string>
+    <string name="locationTextView">Please select the office for which you would
+        like to share your experience on today:</string>
 </resources>

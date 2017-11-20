@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
     tools:context="com.example.msusurveyapp.MainActivity">
 
     <Button
@@ -12,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:layout_marginRight="121dp"
-        android:text="Leave Feedback!"
+        android:onClick="startFeedback"
+        android:text="@string/mainButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
@@ -24,7 +26,7 @@
         android:layout_marginRight="17dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="FEEDBACK IS IMPORTANT!!! PLEASE TAKE THE TIME TO GIVE YOUR FEEDBACK ON YOUR EXPERIENCE HERE TODAY!"
+        android:text="@string/mainTextView"
         android:textAlignment="center"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="24sp"
@@ -35,18 +37,17 @@
         app:layout_constraintVertical_bias="0.939" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="224dp"
-        android:layout_height="99dp"
+        android:id="@+id/imageView2"
+        android:layout_width="252dp"
+        android:layout_height="88dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_action_name" />
+        app:srcCompat="@drawable/morgan_logo" />
 
 </android.support.constraint.ConstraintLayout>
