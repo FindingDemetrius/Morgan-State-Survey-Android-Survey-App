@@ -15,4 +15,18 @@
     <string name="thanksButton">Dismiss</string>
     <string name="locationTextView">Please select the office for which you would
         like to share your experience on today:</string>
+    <string-array name="locations_array">
+        <item>Library</item>
+        <item>Book Store</item>
+        <item>Bursar</item>
+        <item>Human Resources</item>
+        <item>Food Court</item>
+        <item>Rawlings</item>
+        <item>Student Center</item>
+        <item>Admissions</item>
+        <item>Financial Aid</item>
+        <item>Post Office</item>
+        <item>Office of Student Life &amp; Development</item>
+    </string-array>
+    <string name="location_prompt">Choose a location</string>
 </resources>

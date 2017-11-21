@@ -19,27 +19,6 @@ public class LocationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
-        populateSpinner();
-    }
-
-    public void populateSpinner() {
-        List<String> spinnerArray = new ArrayList<String>();
-        spinnerArray.add("");
-        spinnerArray.add("Library");
-        spinnerArray.add("Book Store");
-        spinnerArray.add("Bursar");
-        spinnerArray.add("Human Resources");
-        spinnerArray.add("Food Court");
-        spinnerArray.add("Admissions");
-        spinnerArray.add("Financial Aid");
-        spinnerArray.add("Post Office");
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-                this, android.R.layout.simple_spinner_item, spinnerArray);
-
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        spinner.setAdapter(adapter);
     }
 
     public void satisfationLevel(View view) {
